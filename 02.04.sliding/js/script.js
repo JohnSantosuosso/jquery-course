@@ -8,4 +8,8 @@ $(function () {
   // Toggle sliding up/down depending on current state
   $(".blue-box").slideToggle(1000);
   $(".blue-box").slideToggle(1000);
+
+  //Hide all paragraphs then slide down
+  $("p").hide();
+  $("p").slideDown(1000);
 });

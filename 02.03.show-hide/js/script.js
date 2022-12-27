@@ -1,6 +1,7 @@
 $(function () {
   // Hide an element
   $(".red-box").hide();
+  
 
   // Show it again
   $(".red-box").show();

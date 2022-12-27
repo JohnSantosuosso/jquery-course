@@ -7,45 +7,32 @@ $(function () {
   // the $() function by passing it in as a string.
 
   // Select all paragraph tags
-  var p = $("p");
-  highlight(p);
+    $("p").css("background-color", "rgba(180, 180, 30, 0.7");
 
   // Select all elements with the class .red-box (only one in this case)
-  var redBoxes = $(".red-box");
-  highlight(redBoxes);
+  $(".red-box").css("background-color", "rgba(180, 180, 30, 0.7");
 
   // Select the unique element with ID "list"
-  var list = $("#list");
-  highlight(list);
+  $("#list").css("background-color", "rgba(180, 180, 30, 0.7");
 
   // Select all h2, p, and input tags
-  var elements = $("h2, p, input");
-  highlight(elements);
+  $("h2, p, input").css("background-color", "rgba(90, 90, 180, 0.8");
 
   // Select only the last <li> on the page
-  var lastItem = $("li:last");
-  highlight(lastItem);
+  $("li:last").css("background-color", "rgba(180, 90, 180, 0.8");
 
   // Select all even list items on the page (every second list item)
-  var everySecondItem = $("li:even");
-  highlight(everySecondItem);
+  $("li:even").css("background-color", "rgba(180, 90, 180, 0.8");
 
   // Select all odd list items (every other list item)
-  var everyOtherItem = $("li:odd");
-  highlight(everyOtherItem);
+  $("li:even").css("background-color", "rgba(50, 90, 180, 0.8");
 
   // Select all input elements that are checked/selected
   // Checkboxes and radio buttons don't have background-color
-  var selected = $("input:checked");
-  console.log(selected.length);
+  $("input:text").css("background-color", "rgba(120, 90, 180, 0.8");
 
   // Select all input elements of type email
-  var emails = $("input[type=email]");
-  highlight(emails);
-
-});
+  $("input:email").css("background-color", "rgba(130, 40, 180, 0.8");
 
 // Helper function which highlights the given element with yellow background
-function highlight(element) {
-  element.css("background-color", "rgba(180, 180, 30, 0.8)");
-}
+});
